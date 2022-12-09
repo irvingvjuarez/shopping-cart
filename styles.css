@@ -36,6 +36,9 @@
   .navbar-left {
     display: flex;
   }
+  .navbar-right {
+    position: relative;
+  }
   .navbar-left ul {
     margin-left: 12px;
   }

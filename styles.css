@@ -77,13 +77,6 @@ nav {
     position: relative;
 }
 
-.navbar-shopping-cart > button {
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    padding: 0;
-}
-
 .navbar-shopping-cart div {
     width: 16px;
     height: 16px;
@@ -105,6 +98,12 @@ nav {
 }
 .menu-border {
     border: 1px solid var(--very-light-pink);
+}
+.reset-btn {
+    cursor: pointer;
+    padding: 0;
+    background: transparent;
+    border: none;
 }
 
 

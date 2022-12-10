@@ -25,5 +25,11 @@ const menuTriggers = [
 ]
 
 menuTriggers.forEach(trigger => {
-    trigger.button.addEventListener("click", () => trigger.menu.classList.toggle("hidden"))
+    trigger.button.addEventListener("click", () => {
+        const openMenus = menuTriggers.filter(trigger => !trigger.menu.classList.contains("hidden"))
+        if (openMenus.length > 0) {
+            openMenus.forEach(menuTrigger => menuTrigger.button.click())
+        }
+        trigger.menu.classList.toggle("hidden")
+    })
 })

@@ -1,5 +1,6 @@
 const desktopMenu = document.querySelector(".desktop-menu")
 const mobileMenu = document.querySelector(".mobile-menu")
+const productDetailMenu = document.querySelector(".product-detail")
 
 const cartButton = document.querySelector(".navbar-shopping-cart")
 const hamburguerButton = document.querySelector(".hamburguer-btn")
@@ -15,6 +16,11 @@ const menuTriggers = [
         id: "mobile",
         menu: mobileMenu,
         button: hamburguerButton,
+    },
+    {
+        id: "productDetail",
+        menu: productDetailMenu,
+        button: cartButton
     }
 ]
 

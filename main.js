@@ -3,12 +3,13 @@ const mobileMenu = document.querySelector(".mobile-menu")
 
 const cartButton = document.querySelector(".navbar-shopping-cart")
 const hamburguerButton = document.querySelector(".hamburguer-btn")
+const emailDropdownButton = document.querySelector(".email-dropdown")
 
 const menuTriggers = [
     {
         id: "desktop",
         menu: desktopMenu,
-        button: cartButton,
+        button: emailDropdownButton,
     },
     {
         id: "mobile",
